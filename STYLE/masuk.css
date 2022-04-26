@@ -5,3 +5,7 @@ body {
     background-image: url(/image/bg1.png);
     background-size: cover;
 }
+
+.profil{
+    padding-top: 1px;
+}

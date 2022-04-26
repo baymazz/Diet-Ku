@@ -1,0 +1,18 @@
+html, body, .desktop, .bg {
+    overflow: auto;
+}
+
+*{
+    font-family: serif;
+    font-size: 18px;
+}
+.btn {
+    background-color: #20C073;
+}
+.header {
+    background-color: #20C073;
+}
+/* body {
+    background-image: url(/image/bg1.png);
+    background-size: cover;
+} */
