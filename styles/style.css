@@ -1,26 +1,14 @@
+.btn {
+    background-color: #20C073;
+}
+
 p {
     margin-bottom: 0;
-    font-family: serif;
-    font-size: 20px;
 }
 
 .decor-nav {
     background-image: url(/image/decor.png);
     background-repeat: no-repeat;
-}
-
-.col{
-    font-family: serif;
-}
-
-.gambar1{
-    color: #1b95e0;
-    font-weight: bold;
-}
-
-.gambar2{
-    color: #e74570;
-    font-weight: bold;
 }
 
 .mobile .decor-nav {
@@ -34,20 +22,34 @@ p {
     background-color: #20C073;
 }
 
-h1{
-    text-align: center;
+.item-navigasi a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 16px;
+    border-radius: 50px;
 }
 
-.btn {
+.item-navigasi a:hover {
+    background-color: #54c98e;
+}
+
+.item-navigasi.active a {
     background-color: #20C073;
 }
 
-h3{
-    text-align: center;
-    font-family: serif;
-    /* font-weight: bold; */
-    margin: 3%;
+.prevnextbutton {
+    font-size: 100px;
+    color: #20C073;
 }
+
+.mobile .prevnextbutton {
+    font-size: 60px;
+}
+
+.mobile .resep p{
+    font-size: 12px;
+}
+
 .text-justify {
     text-align: justify;
 }

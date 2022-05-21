@@ -1,3 +1,7 @@
+.bg  html, body, .desktop, .bg {
+    overflow: auto;
+}
+
 .btn {
     background-color: #20C073;
 }
