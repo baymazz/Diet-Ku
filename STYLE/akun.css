@@ -1,0 +1,53 @@
+p {
+    
+    font-family: serif;
+    font-size: 20px;
+}
+
+.decor-nav {
+    background-image: url(/image/decor.png);
+    background-repeat: no-repeat;
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.col{
+    font-family: serif;
+    font-size: 20px;
+}
+
+.btn{
+    font-size: 20px;
+}
+
+.mobile .decor-nav {
+    background-position: -20px  -8px;
+    background-size: 180px;
+    transform: rotate(145deg);
+    padding: 24px 48px;
+}
+
+.header {
+    background-color: #20C073;
+}
+
+
+.btn {
+    background-color: #20C073;
+}
+
+h3{
+    text-align: center;
+    font-family: serif;
+    /* font-weight: bold; */
+    margin: 3%;
+}
+.text-justify {
+    text-align: justify;
+}
+
+.garis {
+    border: 1px solid #000000;
+}

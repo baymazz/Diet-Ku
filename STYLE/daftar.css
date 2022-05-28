@@ -1,4 +1,5 @@
-html, body, .desktop, .bg {
+
+.bg  html, body, .desktop, .bg {
     overflow: auto;
 }
 
