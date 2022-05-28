@@ -1,0 +1,56 @@
+p {
+    margin-bottom: 0;
+    font-family: serif;
+}
+
+.decor-nav {
+    background-image: url(/image/decor.png);
+    background-repeat: no-repeat;
+}
+
+.mobile .decor-nav {
+    background-position: -20px  -8px;
+    background-size: 180px;
+    transform: rotate(145deg);
+    padding: 24px 48px;
+}
+
+.header {
+    background-color: #20C073;
+}
+
+.item-navigasi a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 16px;
+    border-radius: 50px;
+    margin-left: 10%;
+    font-family: serif;
+    font-size: 20px;
+}
+
+.item-navigasi a:hover {
+    background-color: #54c98e;
+}
+
+.item-navigasi.active a {
+    background-color: #20C073;
+}
+
+h4{
+    text-align: center;
+    font-family: serif;
+    font-weight: bold;
+}
+.img-fluid{
+    border-radius: 20px;
+    width: 500px;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.garis {
+    border: 1px solid #000000;
+}
