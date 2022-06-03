@@ -1,30 +1,42 @@
+.bg  html, body, .desktop, .bg {
+    overflow: auto;
+}
+.btn {
+    background-color: #20C073 !important;
+    font-size: 16px;
+}
+
+.profil{
+    padding-top: 1px;
+}
+
 p {
-    
+    margin-bottom: 0;
     font-family: serif;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .decor-nav {
     background-image: url(/image/decor.png);
     background-repeat: no-repeat;
 }
-h1{
-    text-align: center;
-    margin-top: 50px;
-}
 
-h2{
-    text-align: center;
-    margin-top: 50px;
-}
-
-p{
-    font-size: 16px;
-}
 .col{
     font-family: serif;
-    font-size: 20px;
 }
+
+.gambar1{
+    color: #1b95e0;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.gambar2{
+    color: #e74570;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
 .mobile .decor-nav {
     background-position: -20px  -8px;
     background-size: 180px;
@@ -36,16 +48,18 @@ p{
     background-color: #20C073;
 }
 
-.btn {
-    background-color: #20C073;
-    font-size: 16px;
+h1{
+    text-align: center;
 }
 
-h3{
+.btn {
+    background-color: #20C073;
+}
+
+h4{
     text-align: center;
     font-family: serif;
-    /* font-weight: bold; */
-    margin: 3%;
+    font-weight: bold;
 }
 .text-justify {
     text-align: justify;
@@ -54,8 +68,80 @@ h3{
 .garis {
     border: 1px solid #000000;
 }
+
+p {
+    margin-bottom: 0;
+    font-family: serif;
+}
+
+.decor-nav {
+    background-image: url(/image/decor.png);
+    background-repeat: no-repeat;
+}
+
+.mobile .decor-nav {
+    background-position: -20px  -8px;
+    background-size: 180px;
+    transform: rotate(145deg);
+    padding: 24px 48px;
+}
+
+.header {
+    background-color: #20C073;
+}
+
+.item-navigasi a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 16px;
+    border-radius: 50px;
+    margin-left: 10%;
+    font-family: serif;
+    font-size: 20px;
+}
+
+.item-navigasi a:hover {
+    background-color: #54c98e;
+}
+
+.item-navigasi.active a {
+    background-color: #20C073;
+}
+
+.prevnextbutton {
+    font-size: 100px;
+    color: #20C073;
+}
+
+.mobile .prevnextbutton {
+    font-size: 60px;
+}
+
+.mobile .resep p{
+    font-size: 12px;
+}
+h6{
+    font-weight: bold;
+}
+
+h3{
+    font-weight: bold;
+    text-align: center;
+    font-family: serif;
+}
+.text-justify {
+    text-align: justify;
+}
+
+.garis {
+    border: 1px solid #000000;
+}
+
 /* Footer */
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+/* section {
+    margin-top: 60px ;
+} */
 
 section .section-title {
     text-align: center;
