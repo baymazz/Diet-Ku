@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v6.1.1/css/all.css">
     <link rel="stylesheet" href="style/beranda.css">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 </head>
 
 <body>
@@ -54,7 +55,7 @@
         <section>
             <div class="container-fluid px-5 py-3">
                 <div class="row g-3">
-                  <h4>Diet Ku</h4>
+                  <h4 style="font-family: serif; font-weight: bold;">Diet Ku</h4>
                     <div class="col-12">
                         <div class="row d-flex align-items-center">
                             <div class="col-12">
@@ -63,7 +64,7 @@
                         </div>
                     </div>
                     <div class="col-12">
-                        <p class="p-3" style="font-family: serif; margin-left: -15px; font-weight: bold;">Program Diet yang disarankan</p>
+                        <p class="p-3" style="font-family: serif; margin-left: -15px; font-weight: bold; margin-bottom: -10px;">Program Diet yang disarankan</p>
                         <div class="row d-flex align-items-center">
                             <div class="col-12">
                                 <img class="img-fluid" src="/image/PD2.png" alt="">
@@ -82,11 +83,11 @@
                                 <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore placeat sit sint commodi. Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                             </div>
                         </div>
-                        <div class="text-center pt-3 pb-5">
-                            <button type="submit" class="btn px-5 fw-bold">Lihat Program Lain</button>
+                        <div class="text-center pt-3 pb-5" >
+                            <button type="submit" class="btn px-5 fw-bold"><a href="program.html" style="color:black;">Lihat Program Lain </a></a></button>
                         </div>
                         <div class="row g-3">
-                            <h6 style="margin-top: 10px; font-family: serif; margin-bottom: -8px; ">Olahraga</h6>
+                            <h6 style="margin-top: 10px; font-family: serif; margin-bottom: -5px; margin-left: 7px; ">Olahraga</h6>
                               <div class="col-12">
                                   <div class="row d-flex align-items-center">
                                       <div class="col-12">
@@ -160,25 +161,58 @@
             </div>
             <br>
         </section>
-
-        <section class="my-5">
-            <div class="fixed-bottom bg-light">
-                <div class="garis"></div>
-                <div class="footer container-fluid py-3">
-                    <div class="row d-flex justify-content-center">
-                        <div class="col-4 d-flex justify-content-center">
-                            <a href="" class="text-dark">Beranda</a>
-                        </div>
-                        <div class="col-4 d-flex justify-content-center">
-                            <a href="" class="text-dark">Kalender</a>
-                        </div>
-                        <div class="col-4 d-flex justify-content-center">
-                            <a href="" class="text-dark">Akun</a>
-                        </div>
+        <!-- Footer -->
+        <section id="footer">
+            <div class="container">
+                <div class="row text-center text-xs-center text-sm-left text-md-left">
+                    <div class="col-xs-12 col-sm-4 col-md-3" style="margin-top: 45px; color: aliceblue;">
+              <p style="font-weight: bold;">About</p>
+              <p>Diet Ku adalah web aplikasi untuk menjaga kesehatan dan mengontrol berat badan anda</p>
+              <p style="font-weight: bold;">Address</p>
+              <p>Jalan Elang Sakti, Pekanbaru, Riau, Indonesia <span style="font-size: 18px"><i class="fa-solid fa-location-dot"></i></span></p>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4">
+                        <!-- <h5 style="margin-top: 50px;">Quick links</h5>
+                        <ul class="list-unstyled quick-links">
+                            <li><a href="#"><i class="fa fa-angle-double-right"></i>Home</a></li>
+                            <li><a href="daftar.html"><i class="fa fa-angle-double-right"></i>Daftar</a></li>
+                            <li><a href="masuk.html"><i class="fa fa-angle-double-right"></i>Masuk</a></li>
+                            <li><a href="tentangkami.html"><i class="fa fa-angle-double-right"></i>Tentang Kami</a></li>
+                            <li><a href="kontak.html"><i class="fa fa-angle-double-right"></i>Kontak</a></li> -->
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4 ms-auto">
+                        <h5 style="margin-top: 50px; font-family: serif;">Links</h5>
+                        <ul class="list-unstyled quick-links" style="font-family: serif">
+                            <li><a href="#"><i class="fa fa-angle-double-right"></i>Home</a></li>
+                            <li><a href="daftar.html"><i class="fa fa-angle-double-right"></i>Daftar</a></li>
+                            <li><a href="masuk.html"><i class="fa fa-angle-double-right"></i>Masuk</a></li>
+                            <li><a href="tentangkami.html"><i class="fa fa-angle-double-right"></i>Tentang Kami</a></li>
+                            <li><a href="kontak.html"><i class="fa fa-angle-double-right"></i>Kontak</a></li>
                     </div>
                 </div>
-            </div>
-        </section>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+					<ul class="list-unstyled list-inline social text-center">
+						<li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa-brands fa-facebook-f"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa-brands fa-twitter"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa-brands fa-instagram"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa-brands fa-google-plus-g"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02" target="_blank"><i class="fa fa-envelope"></i></a></li>
+					</ul>
+				</div>
+				<hr>
+			</div>	
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+					<p class="h6">© All right Reversed.<a class="text-green ml-2" href="https://www.sunlimetech.com" target="_blank">Diet Ku</a></p>
+				</div>
+				<hr>
+			</div>	
+		</div>
+	</section>
+	<!-- ./Footer -->
         
     </section>
 
@@ -194,8 +228,8 @@
                         </a>
                     </div>
                     <div class="col-4 d-flex justify-content-end align-items-center">
-                        <a href="">
-                            <i class="fa fa-user-circle text-dark fs-1"></i>
+                        <a href="akun.html">
+                            <i class="fa fa-user-circle text-dark fs-1" ></i>
                         </a>
                     </div>
                 </div>
@@ -252,7 +286,7 @@
                     <div class="col-12">
                         <div class="row d-flex align-items-center">
                             <div>
-                                <h1 style="font-family: serif;">Diet Ku</h1>
+                                <h1 style="font-family: serif; margin-left: -120px;">Diet Ku</h1>
                             </div>
                             <div class="col-11">
                                 <p class="text-justify"><span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span> Berat badan yang berlebihan memiliki resiko yang sangat besar, diantaranya menyebabkan tekanan darah tinggi, kolestrol tinggi dan penyumbatan arteri. Ketiga hal ini berpotensi sebagai penyebab risiko terkena penyakit jantung. Namun, memiliki berat badan yang kurus juga memiliki risiko penurunan kepadatan tulang atau bone mineral density yang lebih parah. Memiliki berat badan yang ideal adalah impian hampir semua orang.
@@ -261,7 +295,7 @@
                             </div>
                         </div>
                     </div>
-                    <h6 style="margin-bottom: -20px; margin-top: 20px;">Program yang disarankan :</h6>
+                    <h6 style="margin-bottom: -20px; margin-top: 20px; font-family: serif; margin-left: -10px; font-weight: bold;">Program yang disarankan :</h6>
                     <div class="col-12">
                         <div class="row d-flex align-items-center">
                             <div class="col-5">
@@ -287,52 +321,52 @@
                     </div>
                 </div>
             </div>
-            <div class="container-fluid mx-5">
-                <div class="row g-5">
+            <div class="col-12 mx-5" style="margin-left: 20px">
+                <div class="row g-5" >
                     <div>
-                        <h4 style="font-weight: lighter; margin-top: -15px; margin-bottom: -15px; margin-left: -1230px;">Olahraga :</h4>
+                        <h4 style="font-weight: lighter; margin-top: -15px; margin-bottom: -15px; margin-left: -1165px;">Olahraga :</h4>
                     </div>
-                    <div class="col-6">
-                        <div class="row d-flex align-items-center">
-                            <div class="col-5">
-                                <img class="img-fluid" src="/image/jogging.png" alt="">
+                    <div class="col-6 ">
+                        <div class="row align-items-center">
+                            <div class="col-4 ms-4">
+                                <img class="img-fluid" src="/image/jogging.png" alt="" width="200px" height="200px">
                             </div>
-                            <div class="col-6">
+                            <div class="col-7">
                                 <p class="text-justify">Jogging merupakan latihan kardiovaskular. Inilah yang membuat manfaat jogging sangat baik untuk kesehatan jantung. Rutin jogging akan meningkatkan kesehatan pada jantung. Rutin melakukan jogging di pagi hari akan mencegah masalah pada jantung.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-5 ">
                         <div class="row d-flex align-items-center">
                             <div class="col-5">
-                                <img class="img-fluid" src="/image/crunches.png" alt="">
+                                <img class="img-fluid" src="/image/crunches.png" alt="" width="200px" height="200px">
                             </div>
-                            <div class="col-6">
+                            <div class="col-7">
                                 <p class="text-justify">Manfaat gerakan crunch yang pertama untuk membantu memperkuat perut. Jika Anda ingin melatih perut six-pack Anda, maka Anda harus memasukkan crunch ke dalam latihan rutin. Crunch adalah gerakan yang menargetkan perut dan melatihnya untuk bekerja secara terkoordinasi.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="container-fluid">
+                    <div>
                         <div class="row g-5">
                             <div>
-                                <h4 style="font-weight: lighter; margin-top: -15px; margin-bottom: -15px; margin-left: -1250px;">Kalori :</h4>
+                                <h4 style="font-weight: lighter; margin-top: -15px; margin-bottom: -15px; margin-left: -1210px;">Kalori :</h4>
                             </div>
-                            <div class="col-6">
+                            <div class="col-6 ms-3">
                                 <div class="row d-flex align-items-center">
-                                    <div class="col-5">
+                                    <div class="col-4">
                                         <img class="img-fluid" src="/image/resep-5.1.png" alt="">
                                     </div>
-                                    <div class="col-6">
+                                    <div class="col-7">
                                         <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia laboriosam saepe cumque, cum porro, at, sint delectus nemo praesentium consectetur voluptatum.</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-6">
+                            <div class="col-5" style="margin-left: -18px;">
                                 <div class="row d-flex align-items-center">
                                     <div class="col-5">
                                         <img class="img-fluid" src="/image/resep-2.1.png" alt="">
                                     </div>
-                                    <div class="col-6">
+                                    <div class="col-7">
                                         <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia laboriosam saepe cumque, cum porro, at, sint delectus nemo praesentium consectetur voluptatum.</p>
                                     </div>
                                 </div>
@@ -342,7 +376,7 @@
         </section>
 
         <section>
-            <h4 style="font-weight: lighter; margin-top: -15px; margin-bottom: -15px; margin-left: -1100px;" class="p-5">Resep Favorit : </h4>
+            <h4 style="font-weight: lighter; margin-top: -15px; margin-bottom: -15px; margin-left: -1035px;" class="p-5">Resep Favorit : </h4>
             <div class="container-fluid mb-4">
                 <div class="row d-flex justify-content-center">
                     <div class="col-1 d-flex justify-content-center">
@@ -372,21 +406,54 @@
             </div>
         </section>
     
-        <section>
-            <div class="garis"></div>
-            <div class="footer container-fluid p-3 mx-5">
-                <div class="row d-flex justify-content-center">
-                    <div class="col-2">
-                        <a href="" class="text-dark">Tentang Kami</a>
-                    </div>
-                    <div class="col-2">
-                        <a href="" class="text-dark">Kontak</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </section>
+      
+    
 
-      <script src="/bootstrap/bootstrap.min.js"></script>
+<!-- Footer -->
+<section id="footer">
+    <div class="container">
+        <div class="row text-center text-xs-center text-sm-left text-md-left">
+            <div class="col-xs-12 col-sm-4 col-md-3" style="margin-top: 45px; color: aliceblue;">
+      <p style="font-weight: bold;font-size: 20px;">About</p>
+      <p>Diet Ku adalah web aplikasi untuk menjaga kesehatan dan mengontrol berat badan anda</p>
+      <p style="font-weight: bold;font-size: 20px;">Address</p>
+      <p>Jalan Elang Sakti, Pekanbaru, Riau, Indonesia <span style="font-size: 18px"><i class="fa-solid fa-location-dot"></i></span></p>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4 ms-auto">
+                <h5 style="margin-top: 50px; font-family: serif;">Links</h5>
+                <ul class="list-unstyled quick-links" style="font-family: serif">
+                    <li><a href="#"><i class="fa fa-angle-double-right"></i>Home</a></li>
+                    <li><a href="daftar.html"><i class="fa fa-angle-double-right"></i>Daftar</a></li>
+                    <li><a href="masuk.html"><i class="fa fa-angle-double-right"></i>Masuk</a></li>
+                    <li><a href="kontak.html"><i class="fa fa-angle-double-right"></i>Kontak</a></li>
+                    <li><a href="tentangkami.html"><i class="fa fa-angle-double-right"></i>Tentang Kami</a></li>
+            </div>
+        </div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+					<ul class="list-unstyled list-inline social text-center">
+						<li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa-brands fa-facebook-f"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa-brands fa-twitter"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa-brands fa-instagram"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa-brands fa-google-plus-g"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02" target="_blank"><i class="fa fa-envelope"></i></a></li>
+					</ul>
+				</div>
+				<hr>
+			</div>	
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+					<p class="h6">© All right Reversed.<a class="text-green ml-2" href="https://www.sunlimetech.com" target="_blank">Diet Ku</a></p>
+				</div>
+				<hr>
+			</div>	
+		</div>
+	</section>
+	<!-- ./Footer -->
+
+    <script src="/bootstrap/bootstrap.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </body>
 </html>
