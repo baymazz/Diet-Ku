@@ -1,9 +1,6 @@
-.btn {
-    background-color: #20C073;
-}
-
 p {
     margin-bottom: 0;
+    font-family: serif;
 }
 
 .decor-nav {
@@ -27,6 +24,9 @@ p {
     color: black;
     padding: 10px 16px;
     border-radius: 50px;
+    margin-left: 10%;
+    font-family: serif;
+    font-size: 20px;
 }
 
 .item-navigasi a:hover {
@@ -37,17 +37,20 @@ p {
     background-color: #20C073;
 }
 
-.prevnextbutton {
-    font-size: 100px;
-    color: #20C073;
+h4{
+    text-align: center;
+    font-family: serif;
+    font-weight: bold;
 }
 
-.mobile .prevnextbutton {
-    font-size: 60px;
+h6{
+    font-family: serif;
+    font-weight: bold;
 }
 
-.mobile .resep p{
-    font-size: 12px;
+.img-fluid{
+    border-radius: 20px;
+    width: 500px;
 }
 
 .text-justify {
